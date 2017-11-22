@@ -1,9 +1,9 @@
 fileFormatVersion: 2
 guid: 542a754478d5bf54e8ba28baf932a12f
-timeCreated: 1511232066
+timeCreated: 1511326524
 licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: Body
     100002: //RootNode
@@ -129,6 +129,7 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: Walking
@@ -258,7 +259,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -274,6 +278,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -788,13 +793,13 @@ ModelImporter:
       position: {x: 0.032573543, y: 0.0809797, z: 0.0800283}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
-    feetSpacing: 0
+    armTwist: 0.836
+    foreArmTwist: 0.727
+    upperLegTwist: 0.742
+    legTwist: 0.797
+    armStretch: 0.237
+    legStretch: 0.136
+    feetSpacing: 0.109
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0

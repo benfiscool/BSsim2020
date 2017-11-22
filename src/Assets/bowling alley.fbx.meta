@@ -1,10 +1,24 @@
 fileFormatVersion: 2
-guid: cff69f1743fb4474ab4cdec72e55169c
-timeCreated: 1511313524
+guid: 6d88dea05b88df441a27183cd8f3b3b7
+timeCreated: 1511332260
 licenseType: Free
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName: {}
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mesh1
+    100004: Mesh2
+    100006: Office_Door_Knob1
+    400000: //RootNode
+    400002: Mesh1
+    400004: Mesh2
+    400006: Office_Door_Knob1
+    2300000: Mesh1
+    2300002: Mesh2
+    3300000: Mesh1
+    3300002: Mesh2
+    4300000: Mesh1
+    4300002: Mesh2
   materials:
     importMaterials: 1
     materialName: 0
@@ -27,6 +41,7 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -34,7 +49,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 1
     importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -50,6 +68,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -69,7 +88,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

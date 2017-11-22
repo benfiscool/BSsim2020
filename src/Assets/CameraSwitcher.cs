@@ -12,13 +12,13 @@ namespace Assets
         {
             if (Input.GetKeyDown(KeyCode.LeftBracket))
             {
-                FirstPersonCamera.enabled = true;
-                ThirdPersonCamera.enabled = false;
+                FirstPersonCamera.gameObject.SetActive(true);
+                ThirdPersonCamera.gameObject.SetActive(false);
             }
             else if (Input.GetKeyDown(KeyCode.RightBracket))
             {
-                FirstPersonCamera.enabled = false;
-                ThirdPersonCamera.enabled = true;
+                FirstPersonCamera.gameObject.SetActive(false);
+                ThirdPersonCamera.gameObject.SetActive(true);
             }
         }
     }
