@@ -17,7 +17,7 @@ namespace Assets
         void Update()
         {
             RaycastHit info;
-            Physics.Raycast(transform.position + new Vector3(0, .5f, 0), Vector3.down, out info, .6f, ~(1 << 8));
+            Physics.Raycast(transform.position + new Vector3(0, .5f, 0), Vector3.down, out info, 1f, ~(1 << 8));
             _animator.SetBool("IsInMidAir", info.collider == null);
 
             var forward = Input.GetAxisRaw("Vertical");

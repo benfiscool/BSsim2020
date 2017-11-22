@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 
-namespace Assets
+namespace Assets.Scripts
 {
     public class CameraSwitcher : MonoBehaviour
     {
         public Camera FirstPersonCamera;
-
         public Camera ThirdPersonCamera;
 
         void Update()
