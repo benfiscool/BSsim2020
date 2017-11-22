@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: b44e91bf30c6dc6499a6a4c897a9f721
+timeCreated: 1511313428
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Background
+    100004: Boole
+    100006: Boole_1
+    100008: Cube
+    100010: Cube_1
+    100012: Cube_2
+    100014: Cylin
+    100016: Cylin1
+    100018: Cylin2
+    100020: Cylinder
+    100022: Cylinder_1
+    100024: Environmen
+    100026: Light
+    100028: Plane
+    100030: Sky
+    100032: Stool
+    100034: Subdi
+    100036: Subdi1
+    100038: Subdi2
+    100040: Subdi3
+    100042: Subdivisio
+    100044: TooBig0
+    100046: TooBig1
+    100048: TooBig10
+    100050: TooBig11
+    100052: TooBig2
+    100054: TooBig3
+    100056: TooBig4
+    100058: TooBig5
+    100060: TooBig6
+    100062: TooBig7
+    100064: TooBig8
+    100066: TooBig9
+    100068: Torus
+    400000: //RootNode
+    400002: Background
+    400004: Boole
+    400006: Boole_1
+    400008: Cube
+    400010: Cube_1
+    400012: Cube_2
+    400014: Cylin
+    400016: Cylin1
+    400018: Cylin2
+    400020: Cylinder
+    400022: Cylinder_1
+    400024: Environmen
+    400026: Light
+    400028: Plane
+    400030: Sky
+    400032: Stool
+    400034: Subdi
+    400036: Subdi1
+    400038: Subdi2
+    400040: Subdi3
+    400042: Subdivisio
+    400044: TooBig0
+    400046: TooBig1
+    400048: TooBig10
+    400050: TooBig11
+    400052: TooBig2
+    400054: TooBig3
+    400056: TooBig4
+    400058: TooBig5
+    400060: TooBig6
+    400062: TooBig7
+    400064: TooBig8
+    400066: TooBig9
+    400068: Torus
+    2300000: Background
+    2300002: Boole
+    2300004: Boole_1
+    2300006: Cube
+    2300008: Cube_1
+    2300010: Cube_2
+    2300012: Cylin
+    2300014: Cylin1
+    2300016: Cylin2
+    2300018: Cylinder
+    2300020: Cylinder_1
+    2300022: Environmen
+    2300024: Plane
+    2300026: Sky
+    2300028: Stool
+    2300030: Subdi
+    2300032: Subdi1
+    2300034: Subdi2
+    2300036: Subdi3
+    2300038: Subdivisio
+    2300040: TooBig0
+    2300042: TooBig1
+    2300044: TooBig10
+    2300046: TooBig11
+    2300048: TooBig2
+    2300050: TooBig3
+    2300052: TooBig4
+    2300054: TooBig5
+    2300056: TooBig6
+    2300058: TooBig7
+    2300060: TooBig8
+    2300062: TooBig9
+    2300064: Torus
+    3300000: Background
+    3300002: Boole
+    3300004: Boole_1
+    3300006: Cube
+    3300008: Cube_1
+    3300010: Cube_2
+    3300012: Cylin
+    3300014: Cylin1
+    3300016: Cylin2
+    3300018: Cylinder
+    3300020: Cylinder_1
+    3300022: Environmen
+    3300024: Plane
+    3300026: Sky
+    3300028: Stool
+    3300030: Subdi
+    3300032: Subdi1
+    3300034: Subdi2
+    3300036: Subdi3
+    3300038: Subdivisio
+    3300040: TooBig0
+    3300042: TooBig1
+    3300044: TooBig10
+    3300046: TooBig11
+    3300048: TooBig2
+    3300050: TooBig3
+    3300052: TooBig4
+    3300054: TooBig5
+    3300056: TooBig6
+    3300058: TooBig7
+    3300060: TooBig8
+    3300062: TooBig9
+    3300064: Torus
+    4300000: Stool
+    4300002: Boole_1
+    4300004: Cylinder
+    4300006: Cube_2
+    4300008: Subdivisio
+    4300010: Cylinder_1
+    4300012: TooBig0
+    4300014: TooBig1
+    4300016: TooBig2
+    4300018: Subdi
+    4300020: Cylin
+    4300022: TooBig3
+    4300024: TooBig4
+    4300026: TooBig5
+    4300028: Boole
+    4300030: Cube_1
+    4300032: Cube
+    4300034: Torus
+    4300036: Subdi1
+    4300038: Cylin1
+    4300040: TooBig6
+    4300042: TooBig7
+    4300044: TooBig8
+    4300046: Subdi2
+    4300048: Cylin2
+    4300050: TooBig9
+    4300052: TooBig10
+    4300054: TooBig11
+    4300056: Subdi3
+    4300058: Sky
+    4300060: Background
+    4300062: Plane
+    4300064: Environmen
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
