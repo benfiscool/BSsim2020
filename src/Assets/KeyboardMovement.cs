@@ -12,8 +12,8 @@ public class KeyboardMovement : MonoBehaviour {
         var forward = Input.GetAxisRaw("Vertical");
         var sideways = Input.GetAxisRaw("Horizontal");
 
-        _animator.SetFloat("Vertical", forward);
-        _animator.SetFloat("Horizontal", sideways);
+        _animator.SetFloat("Vertical", forward, 1f, Time.smoothDeltaTime * 10f);
+        _animator.SetFloat("Horizontal", sideways, 1f, Time.smoothDeltaTime * 10f);
 
         if (forward != 0 || sideways != 0)
         {
