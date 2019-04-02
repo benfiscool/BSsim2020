@@ -18,13 +18,13 @@ namespace Assets.Scripts
             if (Input.GetMouseButtonDown(0) && _held != null)
             {
                 _held.transform.SetParent(null, true);
-//                _held.velocity = Vector3.zero;
                 _held.isKinematic = false;
+                _held.velocity = Vector3.zero;
                 _held.detectCollisions = true;
 
                 var coroutine = WaitASec(() =>
                 {
-                    _held.AddForce(Camera.main.transform.forward * 10, ForceMode.VelocityChange);
+                    _held.AddForce(Camera.main.transform.forward * 10 + Vector3.up * 2, ForceMode.VelocityChange);
                     _held = null;
                 });
                 StartCoroutine(coroutine);
@@ -37,8 +37,8 @@ namespace Assets.Scripts
             {
                 _held = t.GetComponent<Rigidbody>();
                 _held.detectCollisions = false;
-//                _held.velocity = Vector3.zero;
                 _held.isKinematic = true;
+                _held.velocity = Vector3.zero;
 
                 var coroutine = WaitASec(() =>
                 {

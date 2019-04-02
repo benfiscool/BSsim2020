@@ -15,7 +15,7 @@ namespace Assets.Scripts
 
         void OnCollisionEnter(Collision c)
         {
-            if (c.relativeVelocity.magnitude > Breakpoint)
+            if (c.relativeVelocity.magnitude > Breakpoint && c.collider.GetComponent<Equippable>() != null)
             {
                 if (_animator != null)
                 {
